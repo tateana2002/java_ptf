@@ -5,13 +5,15 @@ package il.stqa.ptf.sandbox;
  */
 public class MyFirstProgram {
   public static void main(String[] args) {
-    hello("word");
-    double len=5;
-    System.out.println("Площадь квадрата со стороной "+len+ "="+area(len) );
+    Square s = new Square(5);
 
-  double a=4;
-  double b=6;
-  System.out.println("Площадь прямоугольника со стороной "+ a + " и " + b + " = " +area(a,b));
+    Rectangle r=new Rectangle(4,6);
+
+    hello("word");
+
+    System.out.println("Площадь квадрата со стороной " + s.l + "=" + s.area());
+
+  System.out.println("Площадь прямоугольника со стороной "+ r.a + " и " + r.b + " = " +r.area());
 }
 
 public static void hello (String somebode)
@@ -19,12 +21,11 @@ public static void hello (String somebode)
 
       System.out.println("Hello,"+somebode + " !" );
     }
-public static double area(double l){
-  return l*l;}
 
-  public static double area(double a,double b){
-    return a*b;
-  }
+
+ // public static double area(Rectangle r){
+  //  return r.a * r.b;
+//  }
 }
 
 
