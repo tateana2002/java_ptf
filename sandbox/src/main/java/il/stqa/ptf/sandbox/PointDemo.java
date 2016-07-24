@@ -4,9 +4,9 @@ public class PointDemo {
     Point p1 = new Point(0,0);
     Point p2 = new Point(9,4);
 
-    System.out.println("p1 = " + p1.x + ", " + p1.y);
+    System.out.println("p1 = " + p1.x + " , " + p1.y);
 
-    System.out.println("p2 = " + p2.x + ", " + p2.y);
+    System.out.println("p2 = " + p2.x + " , " + p2.y);
 
     System.out.println("p1.distance(p2) = " + p1.distance(p2));
 
