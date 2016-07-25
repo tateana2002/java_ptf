@@ -14,7 +14,7 @@ public class Point {
     return Math.sqrt(dist_x * dist_x + dist_y * dist_y);
   }
     double distance(Point p){
-      return distance (p.x,p.y);
+     return distance (p.x,p.y);
 
   }
 
