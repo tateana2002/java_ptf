@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f51140b-1677-478c-abef-9d446d85a665" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/AddressBookTests.java" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/AddressBookTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupGreationTest.java" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupGreationTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/AddressBookTests.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="java_ptf.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,18 +72,8 @@
       <file leaf-file-name="GroupGreationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupGreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddressBookTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/AddressBookTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="238">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -1786,20 +1776,17 @@
     <history-entry file="AddressBookTests - 2016.07.31 at 15h 46m 29s.xml">
       <configuration name="AddressBookTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupGreationTest - 2016.07.31 at 05h 12m 02s.xml">
-      <configuration name="GroupGreationTest" configurationId="TestNG" />
+    <history-entry file="AddressBookTests - 2016.07.31 at 17h 50m 47s.xml">
+      <configuration name="AddressBookTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupGreationTest - 2016.07.31 at 13h 41m 29s.xml">
-      <configuration name="GroupGreationTest" configurationId="TestNG" />
+    <history-entry file="AddressBookTests - 2016.07.31 at 17h 54m 05s.xml">
+      <configuration name="AddressBookTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupGreationTest - 2016.07.31 at 14h 01m 27s.xml">
-      <configuration name="GroupGreationTest" configurationId="TestNG" />
+    <history-entry file="AddressBookTests - 2016.07.31 at 17h 56m 38s.xml">
+      <configuration name="AddressBookTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupGreationTest - 2016.07.31 at 14h 21m 16s.xml">
-      <configuration name="GroupGreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupGreationTest - 2016.07.31 at 15h 23m 04s.xml">
-      <configuration name="GroupGreationTest" configurationId="TestNG" />
+    <history-entry file="AddressBookTests - 2016.07.31 at 18h 03m 03s.xml">
+      <configuration name="AddressBookTests" configurationId="TestNG" />
     </history-entry>
     <history-entry file="GroupGreationTest - 2016.07.31 at 15h 40m 59s.xml">
       <configuration name="GroupGreationTest" configurationId="TestNG" />
@@ -1808,6 +1795,9 @@
       <configuration name="GroupGreationTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="GroupGreationTest - 2016.07.31 at 17h 47m 59s.xml">
+      <configuration name="GroupGreationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupGreationTest - 2016.07.31 at 18h 05m 25s.xml">
       <configuration name="GroupGreationTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="PointTests - 2016.07.31 at 05h 11m 12s.xml">
@@ -2130,18 +2120,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/AddressBookTests.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupGreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupGreationTest.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/AddressBookTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        <state relative-caret-position="247">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding />
         </state>
       </provider>
