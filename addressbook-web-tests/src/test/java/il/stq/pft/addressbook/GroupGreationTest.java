@@ -1,4 +1,4 @@
-package il.stqa.ptf.addressbook;
+package il.stq.pft.addressbook;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
@@ -14,7 +14,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.*;
 import static org.openqa.selenium.OutputType.*;
 
-public class GroupCreationTests {
+public class GroupGreationTest {
     FirefoxDriver wd;
     
     @BeforeMethod
@@ -24,7 +24,7 @@ public class GroupCreationTests {
     }
     
     @Test
-    public void GroupCreationTests() {
+    public void GroupGreationTest() {
         wd.get("http://localhost/addressbook/group.php");
         wd.findElement(By.id("LoginForm")).click();
         wd.findElement(By.name("user")).click();
@@ -40,7 +40,7 @@ public class GroupCreationTests {
         wd.findElement(By.name("group_name")).sendKeys("test1");
         wd.findElement(By.name("group_header")).click();
         wd.findElement(By.name("group_header")).clear();
-        wd.findElement(By.name("group_header")).sendKeys("tast2");
+        wd.findElement(By.name("group_header")).sendKeys("test2");
         wd.findElement(By.name("group_footer")).click();
         wd.findElement(By.name("group_footer")).clear();
         wd.findElement(By.name("group_footer")).sendKeys("test3");
