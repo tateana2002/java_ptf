@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f51140b-1677-478c-abef-9d446d85a665" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/add_New_Contact.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/AddNewContact.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/FormNewContact.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupGreationTest.java" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupGreationTest.java" />
     </list>
     <ignored path="java_ptf.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,16 +71,29 @@
       <file leaf-file-name="GroupGreationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupGreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#1317#1318#0" expanded="true" />
                 <element signature="e#1376#1377#0" expanded="true" />
                 <element signature="e#1415#1416#0" expanded="true" />
                 <element signature="e#1466#1467#0" expanded="true" />
                 <element signature="e#2102#2103#0" expanded="true" />
                 <element signature="e#2150#2151#0" expanded="true" />
+                <element signature="e#2193#2194#0" expanded="true" />
+                <element signature="e#2212#2213#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupDelitionTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupDelitionTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddNewContact1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddNewContact1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/AddNewContact1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="66">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="35" />
               <folding>
                 <element signature="e#1114#1115#0" expanded="true" />
                 <element signature="e#1172#1173#0" expanded="true" />
@@ -133,8 +142,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -1137,9 +1146,11 @@
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/AddressBookTests.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/add_New_Contact.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/Add_New_Contact.java" />
-        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupGreationTest.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/AddNewContact.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/AddNewContact1.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/TestBase.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupGreationTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupDelitionTests.java" />
       </list>
     </option>
   </component>
@@ -1342,7 +1353,12 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
-  <component name="RunManager" selected="TestNG.AddNewContact1">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="il.stq.pft.addressbook" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GroupDelitionTests">
     <configuration default="false" name="GroupGreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1356,39 +1372,6 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="il.stq.pft.addressbook" />
       <option name="MAIN_CLASS_NAME" value="il.stq.pft.addressbook.GroupGreationTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/addressbook-web-tests" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="add_New_Contact" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="il.stq.pft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="addressbook-web-tests_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="il.stq.pft" />
-      <option name="MAIN_CLASS_NAME" value="il.stq.pft.add_New_Contact" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -1488,6 +1471,39 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="il.stq.pft.addressbook" />
       <option name="MAIN_CLASS_NAME" value="il.stq.pft.addressbook.AddNewContact1" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/addressbook-web-tests" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="GroupDelitionTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="il.stq.pft.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="addressbook-web-tests_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="il.stq.pft.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="il.stq.pft.addressbook.GroupDelitionTests" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -1785,18 +1801,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.MyFirstProgram" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.GroupGreationTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.add_New_Contact" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.Add_New_Contact" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.AddNewContact" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.AddNewContact1" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.Add_New_Contact" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.AddNewContact" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.AddNewContact1" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.GroupDelitionTests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.AddNewContact1" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.AddNewContact" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.GroupGreationTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.Add_New_Contact" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.add_New_Contact" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.GroupDelitionTests" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.GroupGreationTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.AddNewContact1" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.AddNewContact" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.Add_New_Contact" />
       </list>
     </recent_temporary>
   </component>
@@ -1835,21 +1851,21 @@
     <history-entry file="AddNewContact1 - 2016.08.01 at 18h 43m 56s.xml">
       <configuration name="AddNewContact1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Add_New_Contact - 2016.08.01 at 04h 53m 25s.xml">
-      <configuration name="Add_New_Contact" configurationId="TestNG" />
+    <history-entry file="GroupDelitionTests - 2016.08.01 at 23h 28m 16s.xml">
+      <configuration name="GroupDelitionTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Add_New_Contact - 2016.08.01 at 04h 55m 23s.xml">
-      <configuration name="Add_New_Contact" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupGreationTest - 2016.08.01 at 04h 54m 45s.xml">
-      <configuration name="GroupGreationTest" configurationId="TestNG" />
+    <history-entry file="GroupDelitionTests - 2016.08.01 at 23h 50m 39s.xml">
+      <configuration name="GroupDelitionTests" configurationId="TestNG" />
     </history-entry>
     <history-entry file="GroupGreationTest - 2016.08.01 at 04h 56m 51s.xml">
       <configuration name="GroupGreationTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="GroupGreationTest - 2016.08.01 at 23h 36m 41s.xml">
+      <configuration name="GroupGreationTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1351" height="735" extended-state="1" />
+    <frame x="-7" y="0" width="1351" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1859,7 +1875,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4496" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2656" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1901,20 +1917,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/il/stqa/ptf/sandbox/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/il/stqa/ptf/sandbox/SquareTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/Domashka1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -2113,14 +2115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/AddressBookTests.java" />
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/AddBook.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2135,21 +2129,6 @@
         <state relative-caret-position="255">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupGreationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1466#1467#0" expanded="true" />
-            <element signature="e#2102#2103#0" expanded="true" />
-            <element signature="e#2150#2151#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2179,8 +2158,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/AddNewContact1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="66">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="35" />
           <folding>
             <element signature="e#1114#1115#0" expanded="true" />
             <element signature="e#1172#1173#0" expanded="true" />
@@ -2191,6 +2170,48 @@
             <element signature="e#2614#2615#0" expanded="true" />
             <element signature="e#2676#2677#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-687">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupGreationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#2102#2103#0" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
+            <element signature="e#2193#2194#0" expanded="true" />
+            <element signature="e#2212#2213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/GroupDelitionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
