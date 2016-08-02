@@ -20,9 +20,7 @@ public class AddNewContact1 {
         goToLoginForm();
         login("admin","secret");
     }
-
-
-
+  
   private void login(String username, String password) {
         
         wd.findElement(By.name("user")).click();
