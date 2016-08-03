@@ -7,9 +7,9 @@ public class DeleteContact extends TestBase1 {
 
   @Test
   public void testDeleteContact() {
-    launchHomePage();
-    deleteContactForm();
-    returnToHomePage();
+    app.getContactHelper().launchHomePage();
+    app.getContactHelper().deleteContactForm();
+    app.getContactHelper().returnToHomePage();
   }
 
 

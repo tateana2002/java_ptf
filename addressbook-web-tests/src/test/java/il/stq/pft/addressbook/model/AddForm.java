@@ -1,4 +1,4 @@
-package il.stq.pft.addressbook;
+package il.stq.pft.addressbook.model;
 
 public class AddForm {
   private final String name;
