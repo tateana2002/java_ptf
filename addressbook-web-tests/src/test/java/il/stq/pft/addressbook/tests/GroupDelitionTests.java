@@ -3,7 +3,7 @@ package il.stq.pft.addressbook.tests;
 import org.testng.annotations.Test;
 
 public class GroupDelitionTests extends TestBase {
-
+//Удаление групп
     @Test
     public void testGroupDelition() {
 
