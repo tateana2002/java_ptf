@@ -1,6 +1,5 @@
 package il.stq.pft.addressbook.tests;
 
-import il.stq.pft.addressbook.TestBase1;
 import il.stq.pft.addressbook.model.AddForm;
 import org.testng.annotations.Test;
 

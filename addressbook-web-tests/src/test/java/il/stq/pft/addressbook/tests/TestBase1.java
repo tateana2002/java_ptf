@@ -1,4 +1,4 @@
-package il.stq.pft.addressbook;
+package il.stq.pft.addressbook.tests;
 
 import il.stq.pft.addressbook.appmanager.ApplicationManager1;
 import org.testng.annotations.AfterMethod;
