@@ -4,7 +4,7 @@ import il.stq.pft.addressbook.model.GroupData;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class GroupGreationTest extends TestBase {
+public class GroupCreationTests extends TestBase {
 
   @Test
   public void testGroupGreation() {

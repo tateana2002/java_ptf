@@ -11,6 +11,7 @@ public class TestBase {
 
   protected final AplicationManager app = new AplicationManager();
 
+
   @BeforeMethod
   public void setUp() throws Exception {
     app.init();
