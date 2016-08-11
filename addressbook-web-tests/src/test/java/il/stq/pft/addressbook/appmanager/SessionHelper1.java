@@ -1,15 +1,16 @@
 package il.stq.pft.addressbook.appmanager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
  * Created by vovka on 03.08.2016.
  */
 public class SessionHelper1 {
-  private FirefoxDriver wd;
+  private WebDriver wd;
 
-  public SessionHelper1(FirefoxDriver wd) {
+  public SessionHelper1(WebDriver wd) {
     this.wd = wd;
   }
   public void login(String username, String password) {

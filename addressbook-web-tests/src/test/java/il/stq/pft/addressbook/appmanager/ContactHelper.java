@@ -2,15 +2,16 @@ package il.stq.pft.addressbook.appmanager;
 
 import il.stq.pft.addressbook.model.AddForm;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
  * Created by vovka on 03.08.2016.
  */
 public class ContactHelper {
- private FirefoxDriver wd;
+ private WebDriver wd;
 
-  public ContactHelper(FirefoxDriver wd) {
+  public ContactHelper(WebDriver wd) {
     this.wd = wd ;
 
   }

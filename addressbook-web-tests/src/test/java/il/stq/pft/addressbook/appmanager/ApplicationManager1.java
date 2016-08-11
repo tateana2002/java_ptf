@@ -2,7 +2,11 @@ package il.stq.pft.addressbook.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.BrowserType;
 
 import java.util.concurrent.TimeUnit;
 
@@ -10,13 +14,18 @@ import java.util.concurrent.TimeUnit;
  * Created by vovka on 03.08.2016.
  */
 public class ApplicationManager1 {
-  FirefoxDriver wd;
+  WebDriver wd;
   private SessionHelper1 sessionHelper1;
 
   private  NavigationHelper1 navigationHelper1;
   public ContactHelper contactHelper;
+  private String browser;
 
-  public static boolean isAlertPresent(FirefoxDriver wd) {
+  public ApplicationManager1(String browser) {
+    this.browser = browser;
+  }
+
+  public static boolean isAlertPresent(WebDriver wd) {
     try {
       wd.switchTo().alert();
       return true;
@@ -26,7 +35,15 @@ public class ApplicationManager1 {
   }
 
   public void init() {
-    wd = new FirefoxDriver();
+
+    if (browser == BrowserType.FIREFOX){
+      wd = new FirefoxDriver();
+    } else if (browser == BrowserType.CHROME){
+      wd = new ChromeDriver();
+    } else if (browser == BrowserType.IE){
+      wd = new InternetExplorerDriver();
+    }
+
     wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
     wd.get("http://localhost/addressbook/");
     contactHelper = new ContactHelper(wd);
