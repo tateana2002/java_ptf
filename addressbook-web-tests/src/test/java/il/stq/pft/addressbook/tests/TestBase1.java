@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 /**
  * Created by vovka on 03.08.2016.
  */
-public class TestBase1 {
+public class TestBase1{
 
   protected final ApplicationManager1 app = new ApplicationManager1(BrowserType.IE);
 

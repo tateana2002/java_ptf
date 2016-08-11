@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 /**
  * Created by vovka on 01.08.2016.
  */
-public class TestBase {
+public class TestBase{
 
   protected final AplicationManager app = new AplicationManager(BrowserType.CHROME);
 

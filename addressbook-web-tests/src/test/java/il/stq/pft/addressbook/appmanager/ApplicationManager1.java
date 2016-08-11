@@ -50,7 +50,7 @@ public class ApplicationManager1 {
     navigationHelper1 = new NavigationHelper1(wd);
     sessionHelper1 = new SessionHelper1(wd);
     contactHelper.goToLoginForm();
-    sessionHelper1.login("admin", "secret");
+    sessionHelper1.login("admin","secret");
   }
 
 
