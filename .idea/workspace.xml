@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f51140b-1677-478c-abef-9d446d85a665" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/AplicationManager.java" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/AplicationManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/ApplicationManager1.java" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/ApplicationManager1.java" />
     </list>
     <ignored path="java_ptf.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,11 +54,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AplicationManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AplicationManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/AplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationManager1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/ApplicationManager1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -91,20 +102,6 @@
               <folding>
                 <element signature="e#346#347#0" expanded="true" />
                 <element signature="e#368#369#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/ContactHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-768">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1612#1613#0" expanded="true" />
-                <element signature="e#1667#1668#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1201,8 +1198,8 @@
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/NavigationHelper1.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/SessionHelper1.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/tests/TestBase1.java" />
-        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/ApplicationManager1.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/AplicationManager.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/ApplicationManager1.java" />
       </list>
     </option>
   </component>
@@ -2182,17 +2179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/ApplicationManager1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-          <folding>
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/ContactHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-768">
@@ -2276,6 +2262,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/il/stq/pft/addressbook/appmanager/ApplicationManager1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding />
         </state>
       </provider>
