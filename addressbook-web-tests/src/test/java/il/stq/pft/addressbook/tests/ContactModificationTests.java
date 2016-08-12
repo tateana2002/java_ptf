@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 /**
  * Created by vovka on 03.08.2016.
  */
-public class ContactModificationTests extends TestBase1 {
+public class ContactModificationTests extends TestBase {
   @Test
   public void testContactModification(){
     app.getContactHelper().launchHomePage();

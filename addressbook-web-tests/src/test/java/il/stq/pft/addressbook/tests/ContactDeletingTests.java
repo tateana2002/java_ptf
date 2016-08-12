@@ -2,7 +2,7 @@ package il.stq.pft.addressbook.tests;
 
 import org.testng.annotations.Test;
 
-public class ContactDeletingTests extends TestBase1 {
+public class ContactDeletingTests extends TestBase {
 //удаление контактов
 
   @Test

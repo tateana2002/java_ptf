@@ -9,9 +9,9 @@ import org.testng.annotations.BeforeMethod;
  * Created by vovka on 01.08.2016.
  */
 public class TestBase{
-
-  protected final AplicationManager app = new AplicationManager(BrowserType.CHROME);
-
+  protected final AplicationManager app = new AplicationManager(BrowserType.FIREFOX);
+ // protected final AplicationManager app = new AplicationManager(BrowserType.CHROME);
+//  protected final ApplicationManager app = new ApplicationManager(BrowserType.IE);
 
   @BeforeMethod
   public void setUp() throws Exception {

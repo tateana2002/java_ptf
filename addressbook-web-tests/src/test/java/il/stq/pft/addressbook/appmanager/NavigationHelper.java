@@ -18,4 +18,8 @@ public NavigationHelper(WebDriver wd){
   public void goToGroupPage() {
     click(By.linkText("groups"));
   }
+
+  public void goToFormPage() {
+    wd.findElement(By.linkText("add new")).click();
+  }
 }

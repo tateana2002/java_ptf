@@ -5,9 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-/**
- * Created by vovka on 03.08.2016.
- */
 public class ContactHelper {
  private WebDriver wd;
 

@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  * Created by vovka on 02.08.2016.
  */
 public class SessionHelper extends HelperBase{
-
+  private WebDriver wd;
 
   public SessionHelper(WebDriver wd) {
     super(wd);
@@ -19,5 +19,6 @@ public class SessionHelper extends HelperBase{
     type(By.name("pass"), password);
 
     click(By.xpath("//form[@id='LoginForm']/input[3]"));
+
   }
 }
