@@ -1,9 +1,8 @@
 package il.stq.pft.addressbook.appmanager;
 
-import il.stq.pft.addressbook.model.AddForm;
+import il.stq.pft.addressbook.model.ContactData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class ContactHelper {
  private WebDriver wd;
@@ -25,7 +24,7 @@ public class ContactHelper {
       wd.findElement(By.xpath("//div[@id='content']/form/input[21]")).click();
   }
 
-  public void fillAddForm(AddForm addForm) {
+  public void fillAddForm(ContactData addForm) {
       wd.findElement(By.name("firstname")).click();
       wd.findElement(By.name("firstname")).clear();
       wd.findElement(By.name("firstname")).sendKeys(addForm.getName());

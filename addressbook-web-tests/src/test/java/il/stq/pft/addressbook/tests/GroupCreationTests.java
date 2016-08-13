@@ -10,7 +10,7 @@ public class GroupCreationTests extends TestBase {
   public void testGroupGreation() {
 
     app.getGroupHelper().initGroupGriation();
-    app.getGroupHelper().fillGroupForm(new GroupData("test1", "test2", "test3"));
+    app.getGroupHelper().fillGroupForm(new GroupData("test1",null, null));
     app.getGroupHelper().submitFormGreation(By.name("submit"));
     app.getGroupHelper().returnToGoPage();
   }

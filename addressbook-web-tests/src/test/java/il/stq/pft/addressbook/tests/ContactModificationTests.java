@@ -1,6 +1,6 @@
 package il.stq.pft.addressbook.tests;
 
-import il.stq.pft.addressbook.model.AddForm;
+import il.stq.pft.addressbook.model.ContactData;
 import org.testng.annotations.Test;
 
 /**
@@ -12,7 +12,7 @@ public class ContactModificationTests extends TestBase {
     app.getContactHelper().launchHomePage();
     app.getContactHelper().selectContact();
     app.getContactHelper().initContactModification();
-    app.getContactHelper().fillAddForm(new AddForm("Tatyana", "Lafyorov", "Russia", "0544734644", "uona2002@yandex.ru"));
+    app.getContactHelper().fillAddForm(new ContactData("Tatyana", "Lafyorov", "Russia", "0544734644", "uona2002@yandex.ru"));
     app.getContactHelper().submitContactModification();
     app.getContactHelper().launchHomePage();
 

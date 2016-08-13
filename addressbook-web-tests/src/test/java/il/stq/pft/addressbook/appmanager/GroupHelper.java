@@ -28,7 +28,7 @@ public class GroupHelper extends HelperBase {
     type(By.name("group_footer"), groupData.getFooter());
   }
 
-  public void initGroupGriation() {
+  public void initGroupCriation() {
     click(By.name("new"));
 
   }

@@ -21,10 +21,17 @@ public class HelperBase {
 }
 
   protected void type(By locator, String text) {
-   click(locator);
-    wd.findElement(locator).clear();
-    wd.findElement(locator).sendKeys(text);
+    click(locator);
+    if (text != null) {
+      String existingText = wd.findElement(locator).getAttribute("value");//получение значения поля ввода
+      if (!text.equals(existingText)) {//если текст несовпадает с предыдущим текстом
+        wd.findElement(locator).clear();//тогда поле очищается и заполняется новым значением
+        wd.findElement(locator).sendKeys(text);//если совпадает ,то ничего не делаем идёт мимо блока if
+      }
+
+    }
   }
+
   public  boolean isAlertPresent() {
     try {
       wd.switchTo().alert();
