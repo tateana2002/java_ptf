@@ -4,11 +4,11 @@ import il.stq.pft.addressbook.model.ContactData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ContactHelper {
+public class ContactHelper extends HelperBase {
  private WebDriver wd;
 
   public ContactHelper(WebDriver wd) {
-    this.wd = wd ;
+    super(wd)  ;
 
   }
 
@@ -18,10 +18,6 @@ public class ContactHelper {
 
   public void launchHomePage() {
       click(By.linkText("home"));
-  }
-
-  private void click(By locator) {
-    wd.findElement(locator).click();
   }
 
   public void returnAddForm() {
@@ -34,12 +30,6 @@ public class ContactHelper {
     type(By.name("address"), addForm.getAddress());
     type(By.name("mobile"), addForm.getTelefon());
     type(By.name("email"), addForm.getEmailaddress());
-  }
-
-  private void type(By locator, String text) {
-    click(locator);
-    wd.findElement(locator).clear();
-    wd.findElement(locator).sendKeys(text);
   }
 
   public void returnToHomePage() {
