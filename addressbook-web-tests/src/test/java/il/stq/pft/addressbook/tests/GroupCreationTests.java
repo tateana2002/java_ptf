@@ -7,9 +7,9 @@ import org.testng.annotations.Test;
 public class GroupCreationTests extends TestBase {
 
   @Test
-  public void testGroupGreation() {
+  public void testGroupCreation() {
 
-    app.getGroupHelper().initGroupGriation();
+    app.getGroupHelper().initGroupCreation();
     app.getGroupHelper().fillGroupForm(new GroupData("test1",null, null));
     app.getGroupHelper().submitFormGreation(By.name("submit"));
     app.getGroupHelper().returnToGoPage();

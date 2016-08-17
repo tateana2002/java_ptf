@@ -46,7 +46,7 @@ public class GroupHelper extends HelperBase {
     click(By.name("update"));
   }
 
-  public void initGroupGriation() {
-    click(By.name("new"));
-  }
-}
+  public void initGroupCreation() {
+        click(By.name("new"));
+        }
+        }
