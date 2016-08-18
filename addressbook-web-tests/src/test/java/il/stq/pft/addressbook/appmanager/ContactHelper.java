@@ -2,7 +2,6 @@ package il.stq.pft.addressbook.appmanager;
 
 import il.stq.pft.addressbook.model.ContactData;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
@@ -26,19 +25,24 @@ public class ContactHelper extends HelperBase {
     click(By.xpath("//div[@id='content']/form/input[21]"));
   }
 
-  public void fillAddForm(ContactData addForm,boolean creation) {
-    type(By.name("firstname"), addForm.getName());
-    type(By.name("lastname"), addForm.getLastname());
-    type(By.name("address"), addForm.getAddress());
-    type(By.name("mobile"), addForm.getTelefon());
-    type(By.name("email"), addForm.getEmailaddress());
+  public void fillAddForm(ContactData contactData,boolean creation) {
+    type(By.name("firstname"), contactData.getName());
+    type(By.name("lastname"), contactData.getLastname());
+    type(By.name("address"), contactData.getAddress());
+    type(By.name("mobile"), contactData.getTelefon());
+    type(By.name("email"), contactData.getEmailaddress());
 
-    if (creation){
-      new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(addForm.getGroup());
-    }else{
+    if (creation) {
+      new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+    } else {
+      type(By.name("firstname"), contactData.getName());
+      type(By.name("lastname"), contactData.getLastname());
+      type(By.name("address"), contactData.getAddress());
+      type(By.name("mobile"), contactData.getTelefon());
+      type(By.name("email"), contactData.getEmailaddress());
       Assert.assertFalse(isElementPresent(By.name("new_group")));
     }
-    }
+  }
 
   public void returnToHomePage() {
     click(By.linkText("home"));
@@ -64,10 +68,11 @@ public class ContactHelper extends HelperBase {
 
   }
 
-  public void createContact(ContactData addForm, boolean creation) {
+
+  public void createContact(ContactData contactData, boolean b) {
     launchHomePage();
-     fillAddForm(new ContactData("Tatyana", "Lafyorov", "Israel", "0544734644", "uona2002@yandex.ru","test1"),true);
-  //  fillAddForm(addForm , creation);
+   // fillAddForm(new ContactData("Tatyana", "Lafyorov", "Israel", "0544734644", "uona2002@yandex.ru","test1"),true);
+    fillAddForm(contactData , true);
     returnAddForm();
     launchHomePage();
 
