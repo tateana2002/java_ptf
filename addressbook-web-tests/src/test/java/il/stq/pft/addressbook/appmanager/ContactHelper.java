@@ -66,8 +66,8 @@ public class ContactHelper extends HelperBase {
 
   public void createContact(ContactData addForm, boolean creation) {
     launchHomePage();
-    // fillAddForm(new ContactData("Tatyana", "Lafyorov", "Israel", "0544734644", "uona2002@yandex.ru","test1"),true);
-    fillAddForm(addForm , creation);
+     fillAddForm(new ContactData("Tatyana", "Lafyorov", "Israel", "0544734644", "uona2002@yandex.ru","test1"),true);
+  //  fillAddForm(addForm , creation);
     returnAddForm();
     launchHomePage();
 

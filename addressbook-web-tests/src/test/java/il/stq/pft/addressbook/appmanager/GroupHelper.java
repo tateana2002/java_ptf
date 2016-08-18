@@ -19,7 +19,7 @@ public class GroupHelper extends HelperBase {
 
   }
 
-  public void submitFormGreation(By submit) {
+  public void submitFormCreation(By submit) {
     click(By.name("submit"));
   }
 
@@ -54,12 +54,15 @@ public class GroupHelper extends HelperBase {
   public void createGroup(GroupData group) {
     initGroupCreation();
     fillGroupForm(group);
-    submitFormGreation(By.name("submit"));
-
+    submitFormCreation(By.name("submit"));
     returnToGoPage();
   }
 
   public boolean isThereAGroup() {
     return isElementPresent(By.name("selected[]"));
+  }
+
+  public int getGroupCount() {
+    return wd.findElements(By.name("selected[]")).size();
   }
 }
