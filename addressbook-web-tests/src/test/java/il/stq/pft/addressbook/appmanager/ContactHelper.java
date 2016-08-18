@@ -45,13 +45,13 @@ public class ContactHelper extends HelperBase {
   }
 
   public void deleteContactForm() {
-    click(By.name("selected"));
+    click(By.name("selected[]"));
     click(By.xpath("//div[@id='content']/form[2]/div[2]/input"));
     wd.switchTo().alert().accept();
   }
 
   public void selectContact() {
-    click(By.name("selected"));
+    click(By.name("selected[]"));
 
   }
 
@@ -74,6 +74,11 @@ public class ContactHelper extends HelperBase {
   }
 
   public boolean isThereContact() {
-    return isElementPresent(By.name("selected"));
+    return isElementPresent(By.name("selected[]"));
+  }
+
+  public int getContactCount() {
+    return wd.findElements(By.name("selected[]")).size();
+
   }
 }
