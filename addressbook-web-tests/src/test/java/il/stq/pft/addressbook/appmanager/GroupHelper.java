@@ -55,6 +55,7 @@ public class GroupHelper extends HelperBase {
     initGroupCreation();
     fillGroupForm(group);
     submitFormGreation(By.name("submit"));
+
     returnToGoPage();
   }
 

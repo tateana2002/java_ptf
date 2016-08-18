@@ -34,9 +34,9 @@ public class ContactHelper extends HelperBase {
     type(By.name("email"), addForm.getEmailaddress());
 
     if (creation){
-      new Select(wd.findElement(By.name("new group"))).selectByVisibleText(addForm.getGroup());
+      new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(addForm.getGroup());
     }else{
-      Assert.assertFalse(isElementPresent(By.name("new group")));
+      Assert.assertFalse(isElementPresent(By.name("new_group")));
     }
     }
 
@@ -45,13 +45,13 @@ public class ContactHelper extends HelperBase {
   }
 
   public void deleteContactForm() {
-    click(By.name("selected[]"));
+    click(By.name("selected"));
     click(By.xpath("//div[@id='content']/form[2]/div[2]/input"));
     wd.switchTo().alert().accept();
   }
 
   public void selectContact() {
-    click(By.name("selected[]"));
+    click(By.name("selected"));
 
   }
 
@@ -62,5 +62,18 @@ public class ContactHelper extends HelperBase {
   public void submitContactModification() {
     click(By.xpath("//div[@id='content']/form[1]/input[22]"));
 
+  }
+
+  public void createContact(ContactData addForm, boolean creation) {
+    launchHomePage();
+    // fillAddForm(new ContactData("Tatyana", "Lafyorov", "Israel", "0544734644", "uona2002@yandex.ru","test1"),true);
+    fillAddForm(addForm , creation);
+    returnAddForm();
+    launchHomePage();
+
+  }
+
+  public boolean isThereContact() {
+    return isElementPresent(By.name("selected"));
   }
 }
