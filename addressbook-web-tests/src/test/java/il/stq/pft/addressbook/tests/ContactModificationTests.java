@@ -16,7 +16,7 @@ public class ContactModificationTests extends TestBase {
     app.getContactHelper().launchHomePage();
     int before = app.getContactHelper().getContactCount();
     if (! app.getContactHelper().isThereContact()){
-         app.getContactHelper().createContact(new ContactData("Tatyana", "Lafyorov", "Israel", "0544734644", "uona2002@yandex.ru","test1"),true);
+         app.getContactHelper().createContact(new ContactData("Tatyana", "Lafyorov", "Israel", "0544734644", "uona2002@yandex.ru","test1"));
        }
     app.getContactHelper().selectContact();
     app.getContactHelper().initContactModification();

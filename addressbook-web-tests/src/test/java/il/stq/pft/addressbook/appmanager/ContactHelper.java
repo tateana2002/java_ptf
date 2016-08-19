@@ -69,7 +69,7 @@ public class ContactHelper extends HelperBase {
   }
 
 
-  public void createContact(ContactData contactData, boolean b) {
+  public void createContact(ContactData contactData) {
     launchHomePage();
    // fillAddForm(new ContactData("Tatyana", "Lafyorov", "Israel", "0544734644", "uona2002@yandex.ru","test1"),true);
     fillAddForm(contactData , true);

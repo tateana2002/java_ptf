@@ -21,7 +21,7 @@ public class ContactCreationTests extends TestBase {
     app.getNavigationHelper().goToFormPage();
     app.getContactHelper().launchHomePage();
     if (!app.getContactHelper().isThereContact()) {
-      app.getContactHelper().createContact(new ContactData("Tatyana", "Lafyorov", "Israel", "0544734644", "uona2002@yandex.ru", "test1"), true);
+      app.getContactHelper().createContact(new ContactData("Tatyana", "Lafyorov", "Israel", "0544734644", "uona2002@yandex.ru", "test1"));
     }
     app.getContactHelper().selectContact();
     app.getContactHelper().initContactModification();
