@@ -19,6 +19,7 @@ public class ContactCreationTests extends TestBase {
     // Assert.assertEquals(after, before + 1);
     // }
     app.getNavigationHelper().goToFormPage();
+
     app.getContactHelper().launchHomePage();
     if (!app.getContactHelper().isThereContact()) {
       app.getContactHelper().createContact(new ContactData("Tatyana", "Lafyorov", "Israel", "0544734644", "uona2002@yandex.ru", "test1"));
